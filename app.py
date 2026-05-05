@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Connect to Supabase PostgreSQL
 conn = psycopg2.connect(
-    "postgresql://postgres:Javan,,%4012@db.xdpuxfbjlbbnjtmkssjl.supabase.co:5432/postgres"
+    "postgresql://postgres.xdpuxfbjlbbnjtmkssjl:Javan%2C%2C%4012@aws-0-eu-west-1.pooler.supabase.com:5432/postgres"
 )
 
 @app.route('/')
